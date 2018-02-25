@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="YandexDiskApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uxu-at-kH9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="yl1-0V-B7i">
+                                <rect key="frame" x="162" y="308.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HhK-Bq-z2S"/>
+                                    <constraint firstAttribute="width" constant="50" id="L9X-Yw-CjF"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uxu-at-kH9" secondAttribute="trailing" id="CtI-RI-a7P"/>
+                            <constraint firstItem="Uxu-at-kH9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="MhA-aa-LGC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uxu-at-kH9" secondAttribute="bottom" id="RP8-wb-1xq"/>
+                            <constraint firstItem="Uxu-at-kH9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XCG-9X-150"/>
+                            <constraint firstItem="yl1-0V-B7i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aZe-nk-z3v"/>
+                            <constraint firstItem="yl1-0V-B7i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hbW-Hh-smt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="Uxu-at-kH9" id="x0U-bR-Vsg"/>
+                        <segue destination="c8V-pL-LWi" kind="presentation" identifier="kTabbarSegueIdentifier" id="DK8-6z-UbA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="tEj-vH-GVL">
+            <objects>
+                <tabBarController id="c8V-pL-LWi" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fHv-7h-6sx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lKy-WW-uFQ" kind="relationship" relationship="viewControllers" id="cM8-m4-bsJ"/>
+                        <segue destination="COu-5u-VxX" kind="relationship" relationship="viewControllers" id="doa-jM-NX1"/>
+                        <segue destination="aDu-uF-0b4" kind="relationship" relationship="viewControllers" id="fSL-2d-Jlf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NhY-CL-gvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="134"/>
+        </scene>
+        <!--PhotoView-->
+        <scene sceneID="Jd7-90-pGJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="YaDiskPhoto" referencedIdentifier="PhotoView" id="lKy-WW-uFQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Фото" image="photo-camera" id="Vqu-if-hZe"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bPk-pT-NVz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="-75"/>
+        </scene>
+        <!--MusicView-->
+        <scene sceneID="JUI-BA-xP8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="YaDiskMusic" referencedIdentifier="MusicView" id="COu-5u-VxX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Музыка" image="music-player" id="7yQ-uF-AaD"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ksE-sa-Ylx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807" y="133"/>
+        </scene>
+        <!--VideoView-->
+        <scene sceneID="n7W-h3-ZVi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="YaDiskVideo" referencedIdentifier="VideoView" id="aDu-uF-0b4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Видео" image="play-button" id="QUT-BM-3C2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CLT-je-OgC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music-player" width="24" height="24"/>
+        <image name="photo-camera" width="24" height="24"/>
+        <image name="play-button" width="24" height="24"/>
+    </resources>
+</document>
