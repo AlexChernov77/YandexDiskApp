@@ -37,6 +37,7 @@
 		9644E3502036F97300FF75EB /* YaDiskPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9644E34E2036F97300FF75EB /* YaDiskPhotoCollectionViewCell.xib */; };
 		9644E3532036FD0A00FF75EB /* YandexDiskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9644E3512036FD0A00FF75EB /* YandexDiskApp.xcdatamodeld */; };
 		9644E3552036FDFE00FF75EB /* YaDiskPhotoModelFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644E3542036FDFE00FF75EB /* YaDiskPhotoModelFabric.swift */; };
+		CE93E7142042CEFD00556913 /* testFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93E7132042CEFD00556913 /* testFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		C14B86A027BA9E985DA3E671 /* Pods-YandexDiskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexDiskApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexDiskApp/Pods-YandexDiskApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CE31A11C200F93D2005209DD /* YandexDiskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexDiskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31A12B200F93D2005209DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE93E7132042CEFD00556913 /* testFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFile.swift; sourceTree = "<group>"; };
 		E48109BAB4026F41C3F76CC7 /* Pods_YandexDiskApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexDiskApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -119,6 +121,7 @@
 			children = (
 				96117E442029277A00F1A41E /* YaDiskMusic.storyboard */,
 				96117E452029277A00F1A41E /* YaDiskMusicViewController.swift */,
+				CE93E7132042CEFD00556913 /* testFile.swift */,
 			);
 			path = YaDiskMusic;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96117E682029277B00F1A41E /* YaDiskVideoViewController.swift in Sources */,
+				CE93E7142042CEFD00556913 /* testFile.swift in Sources */,
 				96315B04202F716F0054A597 /* YaDiskPhotoModel.swift in Sources */,
 				9644E3552036FDFE00FF75EB /* YaDiskPhotoModelFabric.swift in Sources */,
 				96117E712029277B00F1A41E /* GlobalAPIConfigure.swift in Sources */,
