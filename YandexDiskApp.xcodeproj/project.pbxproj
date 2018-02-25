@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CB7D9602042CE23000AEE6C /* YaDiskVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D95C2042CE22000AEE6C /* YaDiskVideoViewController.swift */; };
+		2CB7D9612042CE23000AEE6C /* YaDiskVideoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D95D2042CE22000AEE6C /* YaDiskVideoPresenter.swift */; };
+		2CB7D9622042CE23000AEE6C /* YaDiskVideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D95E2042CE23000AEE6C /* YaDiskVideoManager.swift */; };
+		2CB7D9632042CE23000AEE6C /* YaDiskVideoAPI_WRAPPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D95F2042CE23000AEE6C /* YaDiskVideoAPI_WRAPPER.swift */; };
+		2CB7D9672042CE36000AEE6C /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D9642042CE35000AEE6C /* VideoLauncher.swift */; };
+		2CB7D9682042CE36000AEE6C /* YaDiskVideoFabrique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D9652042CE35000AEE6C /* YaDiskVideoFabrique.swift */; };
+		2CB7D9692042CE36000AEE6C /* YaDiskVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D9662042CE36000AEE6C /* YaDiskVideoModel.swift */; };
+		2CB7D96C2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D96A2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.swift */; };
+		2CB7D96D2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB7D96B2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.xib */; };
+		2CB7D9702042CE51000AEE6C /* YaDiskGetVideoPreviewOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D96E2042CE51000AEE6C /* YaDiskGetVideoPreviewOperation.swift */; };
+		2CB7D9712042CE51000AEE6C /* YaDiskGetVideoPlayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB7D96F2042CE51000AEE6C /* YaDiskGetVideoPlayOperation.swift */; };
 		58E6F6745E94B669729A3099 /* Pods_YandexDiskApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48109BAB4026F41C3F76CC7 /* Pods_YandexDiskApp.framework */; };
 		960AC81D20378467007C9B4D /* YaDiskGetFullSizePhotoURLOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960AC81C20378466007C9B4D /* YaDiskGetFullSizePhotoURLOperation.swift */; };
 		96117E652029277B00F1A41E /* YaDiskMusic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96117E442029277A00F1A41E /* YaDiskMusic.storyboard */; };
 		96117E662029277B00F1A41E /* YaDiskMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96117E452029277A00F1A41E /* YaDiskMusicViewController.swift */; };
 		96117E672029277B00F1A41E /* YaDiskVideo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96117E472029277A00F1A41E /* YaDiskVideo.storyboard */; };
-		96117E682029277B00F1A41E /* YaDiskVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96117E482029277A00F1A41E /* YaDiskVideoViewController.swift */; };
 		96117E692029277B00F1A41E /* YaDiskPhoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96117E4A2029277A00F1A41E /* YaDiskPhoto.storyboard */; };
 		96117E6A2029277B00F1A41E /* YaDiskPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96117E4B2029277A00F1A41E /* YaDiskPhotoViewController.swift */; };
 		96117E6B2029277B00F1A41E /* YConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96117E4E2029277B00F1A41E /* YConst.swift */; };
@@ -37,15 +47,26 @@
 		9644E3502036F97300FF75EB /* YaDiskPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9644E34E2036F97300FF75EB /* YaDiskPhotoCollectionViewCell.xib */; };
 		9644E3532036FD0A00FF75EB /* YandexDiskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9644E3512036FD0A00FF75EB /* YandexDiskApp.xcdatamodeld */; };
 		9644E3552036FDFE00FF75EB /* YaDiskPhotoModelFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9644E3542036FDFE00FF75EB /* YaDiskPhotoModelFabric.swift */; };
+		CE93E7142042CEFD00556913 /* testFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93E7132042CEFD00556913 /* testFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CB7D95C2042CE22000AEE6C /* YaDiskVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoViewController.swift; sourceTree = "<group>"; };
+		2CB7D95D2042CE22000AEE6C /* YaDiskVideoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoPresenter.swift; sourceTree = "<group>"; };
+		2CB7D95E2042CE23000AEE6C /* YaDiskVideoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoManager.swift; sourceTree = "<group>"; };
+		2CB7D95F2042CE23000AEE6C /* YaDiskVideoAPI_WRAPPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoAPI_WRAPPER.swift; sourceTree = "<group>"; };
+		2CB7D9642042CE35000AEE6C /* VideoLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
+		2CB7D9652042CE35000AEE6C /* YaDiskVideoFabrique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoFabrique.swift; sourceTree = "<group>"; };
+		2CB7D9662042CE36000AEE6C /* YaDiskVideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoModel.swift; sourceTree = "<group>"; };
+		2CB7D96A2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CB7D96B2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YaDiskVideoCollectionViewCell.xib; sourceTree = "<group>"; };
+		2CB7D96E2042CE51000AEE6C /* YaDiskGetVideoPreviewOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskGetVideoPreviewOperation.swift; sourceTree = "<group>"; };
+		2CB7D96F2042CE51000AEE6C /* YaDiskGetVideoPlayOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskGetVideoPlayOperation.swift; sourceTree = "<group>"; };
 		6115A2B57FB35017B517D394 /* Pods-YandexDiskApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexDiskApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YandexDiskApp/Pods-YandexDiskApp.release.xcconfig"; sourceTree = "<group>"; };
 		960AC81C20378466007C9B4D /* YaDiskGetFullSizePhotoURLOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaDiskGetFullSizePhotoURLOperation.swift; sourceTree = "<group>"; };
 		96117E442029277A00F1A41E /* YaDiskMusic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YaDiskMusic.storyboard; sourceTree = "<group>"; };
 		96117E452029277A00F1A41E /* YaDiskMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskMusicViewController.swift; sourceTree = "<group>"; };
 		96117E472029277A00F1A41E /* YaDiskVideo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YaDiskVideo.storyboard; sourceTree = "<group>"; };
-		96117E482029277A00F1A41E /* YaDiskVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskVideoViewController.swift; sourceTree = "<group>"; };
 		96117E4A2029277A00F1A41E /* YaDiskPhoto.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YaDiskPhoto.storyboard; sourceTree = "<group>"; };
 		96117E4B2029277A00F1A41E /* YaDiskPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YaDiskPhotoViewController.swift; sourceTree = "<group>"; };
 		96117E4E2029277B00F1A41E /* YConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YConst.swift; sourceTree = "<group>"; };
@@ -73,6 +94,7 @@
 		C14B86A027BA9E985DA3E671 /* Pods-YandexDiskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexDiskApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexDiskApp/Pods-YandexDiskApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CE31A11C200F93D2005209DD /* YandexDiskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexDiskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE31A12B200F93D2005209DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE93E7132042CEFD00556913 /* testFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFile.swift; sourceTree = "<group>"; };
 		E48109BAB4026F41C3F76CC7 /* Pods_YandexDiskApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexDiskApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,6 +110,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CB7D9592042CDD2000AEE6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CB7D9642042CE35000AEE6C /* VideoLauncher.swift */,
+				2CB7D9652042CE35000AEE6C /* YaDiskVideoFabrique.swift */,
+				2CB7D9662042CE36000AEE6C /* YaDiskVideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CB7D95A2042CDDB000AEE6C /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				2CB7D96A2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.swift */,
+				2CB7D96B2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.xib */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		2CB7D95B2042CDE1000AEE6C /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				2CB7D96F2042CE51000AEE6C /* YaDiskGetVideoPlayOperation.swift */,
+				2CB7D96E2042CE51000AEE6C /* YaDiskGetVideoPreviewOperation.swift */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
 		59B1EC1FAC541BE5D0F014D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +169,7 @@
 			children = (
 				96117E442029277A00F1A41E /* YaDiskMusic.storyboard */,
 				96117E452029277A00F1A41E /* YaDiskMusicViewController.swift */,
+				CE93E7132042CEFD00556913 /* testFile.swift */,
 			);
 			path = YaDiskMusic;
 			sourceTree = "<group>";
@@ -126,8 +177,14 @@
 		96117E462029277A00F1A41E /* YaDiskVideo */ = {
 			isa = PBXGroup;
 			children = (
+				2CB7D95B2042CDE1000AEE6C /* Operation */,
+				2CB7D95A2042CDDB000AEE6C /* Item */,
+				2CB7D9592042CDD2000AEE6C /* Model */,
 				96117E472029277A00F1A41E /* YaDiskVideo.storyboard */,
-				96117E482029277A00F1A41E /* YaDiskVideoViewController.swift */,
+				2CB7D95F2042CE23000AEE6C /* YaDiskVideoAPI_WRAPPER.swift */,
+				2CB7D95E2042CE23000AEE6C /* YaDiskVideoManager.swift */,
+				2CB7D95D2042CE22000AEE6C /* YaDiskVideoPresenter.swift */,
+				2CB7D95C2042CE22000AEE6C /* YaDiskVideoViewController.swift */,
 			);
 			path = YaDiskVideo;
 			sourceTree = "<group>";
@@ -349,6 +406,7 @@
 				96117E762029277B00F1A41E /* Assets.xcassets in Resources */,
 				9644E3502036F97300FF75EB /* YaDiskPhotoCollectionViewCell.xib in Resources */,
 				96117E652029277B00F1A41E /* YaDiskMusic.storyboard in Resources */,
+				2CB7D96D2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,27 +482,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				96117E682029277B00F1A41E /* YaDiskVideoViewController.swift in Sources */,
+				CE93E7142042CEFD00556913 /* testFile.swift in Sources */,
 				96315B04202F716F0054A597 /* YaDiskPhotoModel.swift in Sources */,
 				9644E3552036FDFE00FF75EB /* YaDiskPhotoModelFabric.swift in Sources */,
+				2CB7D9622042CE23000AEE6C /* YaDiskVideoManager.swift in Sources */,
 				96117E712029277B00F1A41E /* GlobalAPIConfigure.swift in Sources */,
 				96117E6A2029277B00F1A41E /* YaDiskPhotoViewController.swift in Sources */,
+				2CB7D9632042CE23000AEE6C /* YaDiskVideoAPI_WRAPPER.swift in Sources */,
 				96117E6D2029277B00F1A41E /* YAuthorization.swift in Sources */,
+				2CB7D9672042CE36000AEE6C /* VideoLauncher.swift in Sources */,
 				96117E722029277B00F1A41E /* OperationManager.swift in Sources */,
 				96117E702029277B00F1A41E /* DependencyInjector.swift in Sources */,
+				2CB7D9612042CE23000AEE6C /* YaDiskVideoPresenter.swift in Sources */,
 				9644E3532036FD0A00FF75EB /* YandexDiskApp.xcdatamodeld in Sources */,
 				96315B01202F71100054A597 /* YaDiskGetPhotoOperation.swift in Sources */,
+				2CB7D9682042CE36000AEE6C /* YaDiskVideoFabrique.swift in Sources */,
 				96315AFF202F6EE50054A597 /* YaDiskPhotoAPI_WRAPPER.swift in Sources */,
 				96117E6C2029277B00F1A41E /* ViewController.swift in Sources */,
 				96117E662029277B00F1A41E /* YaDiskMusicViewController.swift in Sources */,
 				96315B06202F72730054A597 /* YaDiskPhotoManager.swift in Sources */,
+				2CB7D96C2042CE44000AEE6C /* YaDiskVideoCollectionViewCell.swift in Sources */,
 				96117E742029277B00F1A41E /* ViewInterface.swift in Sources */,
 				96117E6B2029277B00F1A41E /* YConst.swift in Sources */,
+				2CB7D9712042CE51000AEE6C /* YaDiskGetVideoPlayOperation.swift in Sources */,
 				96117E6F2029277B00F1A41E /* CoreDataManager.swift in Sources */,
+				2CB7D9702042CE51000AEE6C /* YaDiskGetVideoPreviewOperation.swift in Sources */,
 				9644E34F2036F97300FF75EB /* YaDiskPhotoCollectionViewCell.swift in Sources */,
+				2CB7D9692042CE36000AEE6C /* YaDiskVideoModel.swift in Sources */,
 				96117E752029277B00F1A41E /* AppDelegate.swift in Sources */,
 				96315B08202F73590054A597 /* YaDiskPhotoPresenter.swift in Sources */,
 				960AC81D20378467007C9B4D /* YaDiskGetFullSizePhotoURLOperation.swift in Sources */,
 				96117E732029277B00F1A41E /* PresenterInterface.swift in Sources */,
+				2CB7D9602042CE23000AEE6C /* YaDiskVideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

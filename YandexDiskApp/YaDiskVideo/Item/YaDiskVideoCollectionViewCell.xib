@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YaDiskVideoCollectionViewCell" customModule="YandexDiskApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ytf-cc-dA5">
+                        <rect key="frame" x="0.0" y="0.0" width="128" height="125"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="имявы" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qw-mp-AsK">
+                        <rect key="frame" x="0.0" y="114" width="128" height="11"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ytf-cc-dA5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="TeW-3W-oDQ"/>
+                <constraint firstAttribute="bottom" secondItem="ytf-cc-dA5" secondAttribute="bottom" id="Unb-FN-f9r"/>
+                <constraint firstItem="ytf-cc-dA5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WWW-wg-RWh"/>
+                <constraint firstAttribute="trailing" secondItem="0Qw-mp-AsK" secondAttribute="trailing" id="asO-Mw-XWy"/>
+                <constraint firstAttribute="trailing" secondItem="ytf-cc-dA5" secondAttribute="trailing" id="m6K-bQ-ezl"/>
+                <constraint firstAttribute="bottom" secondItem="0Qw-mp-AsK" secondAttribute="bottom" id="nql-Cc-u9X"/>
+                <constraint firstItem="0Qw-mp-AsK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="y6x-OL-0Ra"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="128" height="125"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="2"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imageView" destination="ytf-cc-dA5" id="cdK-Zr-Rb0"/>
+                <outlet property="nameLabel" destination="0Qw-mp-AsK" id="meV-5r-SVt"/>
+            </connections>
+            <point key="canvasLocation" x="74" y="106.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
