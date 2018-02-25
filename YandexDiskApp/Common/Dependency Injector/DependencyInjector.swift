@@ -18,10 +18,10 @@ class DependencyInjector
         {
             presenter = YaDiskPhotoPresenter()
         }
-//         if (view is "Ванин контроллер")
-//        {
-//            let presenter = "Ванин презентер"
-//        }
+        if (view is YaDiskVideoViewController)
+        {
+            presenter = YaDiskVideoPresenter()
+        }
 //        if (view is  "Егора контроллер")
 //        {
 //            let presenter = "Егора презентер"

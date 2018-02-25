@@ -114,7 +114,7 @@ extension YaDiskPhotoViewController: ViewFrcInterface
     
     func insert(at: IndexPath)
     {
-        collectionView.performBatchUpdates(<#T##updates: (() -> Void)?##(() -> Void)?##() -> Void#>, completion: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
+//        collectionView.performBatchUpdates(<#T##updates: (() -> Void)?##(() -> Void)?##() -> Void#>, completion: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
         self.collectionView.insertItems(at: [at])
     }
     
